@@ -57,12 +57,8 @@ export default function OwlCarous() {
       autoplayTimeout={2000}
       autoplayHoverPause={true}
       >
-          {images.map((item) => (
-          
-          <div style={{margin:10, height:450}}>
-          <img key={item} src={item} alt="" />
-        </div>
-
+          {images.map((item) => (        
+          <img style={{margin:10, height:450}} key={item} src={item} alt="" />
           ))}
        
         
