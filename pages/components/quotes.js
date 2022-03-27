@@ -37,11 +37,11 @@ const Quotes = () => {
     </Card>
         </Grid>
         <Grid item xs={6} sx={{ml:10, mt:27}} >
-
+       
           <Typography variant='h5'>
-        <FormatQuoteIcon/>
-        Do you know why you are in trouble because you worried about tomorrow? you keep on thinking about the future. That is the cause of problems. Dont think about tomorrow, Live in the present. God will take care of Tomorrow. 
-        <FormatQuoteIcon/>
+        
+         "Do you know why you are in trouble because you worried about tomorrow? you keep on thinking about the future. That is the cause of problems. Dont think about tomorrow, Live in the present. God will take care of Tomorrow." 
+        
         - Sai Baba
     </Typography>
 
@@ -57,9 +57,9 @@ const Quotes = () => {
         <Typography variant='h5'>
        
      
-        <FormatQuoteIcon/>
-        What Matters is to Live in the present, Live Now, For every moment is now. It is thoughts and acts of your moments that create your Future. The outline of your Future path already Exists, for you already created its pattern by your past. 
-        <FormatQuoteIcon/>
+       
+       "What Matters is to Live in the present, Live Now, For every moment is now. It is thoughts and acts of your moments that create your Future. The outline of your Future path already Exists, for you already created its pattern by your past."  
+      
            - Sai Baba
         </Typography>
         </Grid>

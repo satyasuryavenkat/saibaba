@@ -66,16 +66,16 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: 'orangered'}}>
+    <AppBar position="static" sx={{ backgroundColor: 'orangered', color: 'white'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="div"
-            sx={{ mr: 10, display: { xs: 'none', md: 'flex' } }}
+            sx={{ mr: 10, fontWeight: 500, display: { xs: 'none', md: 'flex' } }}
           >
-            SaiBaba
+            Sai Baba
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -109,7 +109,7 @@ const Navbar = () => {
             >
               {pages.map((page) => (
                 <MenuItem  key={page.name} onClick={handleCloseNavMenu}>
-                  <Typography  textAlign="center">
+                  <Typography  textAlign="center" sx={{color:'white'}}>
                   <Link href={page.path}>
                     {page.name}
                     </Link>
@@ -133,7 +133,7 @@ const Navbar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ mr:2,my: 2, color: 'white', display: 'block' }}
               >
-                  <Link href={page.path}>
+                  <Link href={page.path} sx={{color:'white'}}>
                 {page.name}
                 </Link>
               </Button>

@@ -60,7 +60,7 @@ export default function OwlCarous() {
       >
           {images.map((item) => (   
                <Link href={'https://www.youtube.com/c/SaiBaba919'} key={item}>   
-          <img style={{margin:10, cursor: "pointer", height:450}}  src={item} alt="" />
+          <img style={{marginTop:20, marginLeft:10, cursor: "pointer", height:450}}  src={item} alt="" />
           </Link>  
           ))}
        

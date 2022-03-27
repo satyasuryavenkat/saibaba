@@ -11,7 +11,6 @@ export default function Home() {
   <Slider/>
   <Quotes/>
   <OwlCarous/>
-   <h1>Sai Baba Page</h1>
    <Footer/>
    </>
   )
