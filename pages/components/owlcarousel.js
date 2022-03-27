@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 var $ = require("jquery");
 if (typeof window !== "undefined") {
   // Client-side-only code
@@ -57,8 +58,10 @@ export default function OwlCarous() {
       autoplayTimeout={2000}
       autoplayHoverPause={true}
       >
-          {images.map((item) => (        
-          <img style={{margin:10, height:450}} key={item} src={item} alt="" />
+          {images.map((item) => (   
+               <Link href={'https://www.youtube.com/c/SaiBaba919'} key={item}>   
+          <img style={{margin:10, cursor: "pointer", height:450}}  src={item} alt="" />
+          </Link>  
           ))}
        
         
